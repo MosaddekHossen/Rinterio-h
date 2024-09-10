@@ -1,14 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./output.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./output.css" />
     <title>Document</title>
-</head>
-<body>
-    <h1 class="text-3xl text-red-700 font-bold underline">
-        Hello world!
-      </h1>
-</body>
+  </head>
+  <body>
+    <div class="flex flex-col justify-center mt-14">
+      <div
+        class="relative flex flex-col items-center md:space-x-5 space-y-3 md:space-y-0 rounded-xl shadow-lg p-3 max-w-xs md:max-w-3xl mx-auto border border-white bg-white"
+      >
+        <div class="w-full bg-white grid place-items-center">
+          <img
+            src="./img/Rectangle 2.png"
+            alt="tailwind logo"
+            class="rounded-xl"
+          />
+        </div>
+        <div class="max-w-sm bg-white flex flex-col space-y-7 p-3">
+
+          <div class="pt-4">dfdfdf</div>
+          
+          <h3 class="font-black text-gray-800 mt-0 md:text-3xl text-xl">
+            Welcome to Soft UI
+          </h3>
+          <p class="md:text-lg text-gray-700 text-base">
+            The best kept secret of The Bahamas is the country’s sheer size and
+            diversity. With 16 major islands, The Bahamas is an unmatched
+            destination
+          </p>
+          <button class="w-full py-3 mt-7 rounded-full flex gap-2">
+            Send Mail <img src="./img/arrow-up-right-01.svg" alt="" />
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <hr class="my-5" />
+
+    <div class="max-w-screen-lg mx-auto bg-red-500 p-14">
+      <div class="md:flex md:justify-between gap-10">
+        <input
+          type="text"
+          name=""
+          placeholder="First Name*"
+          class="p-5 rounded-full w-full"
+          id=""
+        />
+        <input
+          type="text"
+          name=""
+          placeholder="Last Name*"
+          class="p-5 rounded-full mt-10 md:mt-0 w-full"
+          id=""
+        />
+      </div>
+      <div class="md:flex md:justify-between py-8 gap-10">
+        <input
+          type="text"
+          name=""
+          placeholder="Phone Number*"
+          class="p-5 rounded-full w-full"
+          id=""
+        />
+        <input
+          type="text"
+          name=""
+          placeholder="Email Number*"
+          class="p-5 rounded-full w-full mt-10 md:mt-0"
+          id=""
+        />
+      </div>
+      <textarea
+        type="textarea"
+        class="p-5 rounded-2xl w-full h-44"
+        placeholder="Write your message here"
+      ></textarea>
+      <button
+        class="w-full py-3 mt-7 bg-[#ABEF5F] rounded-full flex justify-center gap-2"
+      >
+        Send Mail <img src="./img/arrow-up-right-01.svg" alt="" />
+      </button>
+    </div>
+
+    <hr class="my-5" />
+  </body>
 </html>
